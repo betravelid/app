@@ -5,6 +5,7 @@ import viteLogo from './assets/images/favicon.png'
 import './App.css'
 import WhatsApp from './components/WhatsApp'
 import { Hero } from './components/Hero'
+import { Card } from './components/Card'
 // import ContactMap from './components/ContactMap'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App ">
       <Hero />
-
+      <Card />
 
     </div>
   )
